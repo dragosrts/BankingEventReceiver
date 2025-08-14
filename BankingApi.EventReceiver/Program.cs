@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 public class Program
 {
-    public static async Task Main(string[] args)
+    public static void Main(string[] args)
     {
         HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
 
